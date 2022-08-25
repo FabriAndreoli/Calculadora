@@ -1,0 +1,17 @@
+.boton-clear {
+    height: 60px;
+    width: 100%;
+    background-color: #7e074e;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.boton-clear:active {
+    background-color: #bd0c76;
+}

@@ -1,0 +1,35 @@
+.boton-contenedor {
+    height: 83px;
+    font-size: 38px;
+    margin: 4px;
+    font-weight: bold;
+    background-color: #414142;
+    color: #b1adad;
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #6d6b6b;
+    border-radius: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.boton-contenedor:hover {
+  font-size: 50px;
+  transition: .6s;
+  color: #eeeaea;
+}
+
+.boton-contenedor:active {
+  background-color: #707072;
+  transition: none;
+}
+
+.operador {
+    background-color: #01501f;
+}
+
+.operador:active {
+    background-color: #01722c;
+}
